@@ -1,0 +1,111 @@
+.note-modal {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border: none;
+}
+
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  max-width: 40rem;
+  width: 100%;
+  margin: auto;
+  padding: 1.5rem;
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.modal-header button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.modal-header button :hover {
+  color: var(--danger);
+}
+
+.modal-header .bx-x {
+  font-size: 1.75rem;
+}
+
+.modal-body {
+  width: 100%;
+}
+
+.modal-body .title {
+  border: 1px solid var(--lightGrey);  
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;  
+}
+
+.rich-text-edior {
+  height: 15rem;
+}
+
+.rich-text-edior.red > .ql-snow{
+  background-color: #fca5a5;
+}
+
+
+.rich-text-edior.orange > .ql-snow{
+  background-color: #fdba74;
+}
+
+.rich-text-edior.green > .ql-snow{
+  background-color: #86efac;
+}
+
+.rich-text-edior.purple > .ql-snow{
+  background-color: #d8b4fe;
+}
+
+.rich-text-edior.grey > .ql-snow{
+  background-color: #d1d5db;
+}
+
+.note-modal-action-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.1rem;
+  margin-top: 2rem;
+  gap: 3rem;
+}
+
+.options {
+  padding: 2rem 0rem;
+}
+
+.options select {
+  padding: 0.15rem;
+  border: 1px solid var(--black);
+  border-radius: 0.35rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+}
+
+.modal-footer .btn {
+  color: var(--white);
+}
+

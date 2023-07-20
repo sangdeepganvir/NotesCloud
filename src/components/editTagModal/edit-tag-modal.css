@@ -1,0 +1,69 @@
+.tagModal{
+  z-index: 3;
+  position: absolute;
+  top: 10rem;
+  left: 40rem;
+  color: var(--black);
+  padding: 1.5rem;
+  background-color: var(--white);
+  border-radius: 0.5rem;
+}
+
+.edit-tag-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  max-width: 40rem;
+  width: 100%;
+}
+
+.modal-header{
+    font-weight: bolder;
+    cursor: pointer;
+    margin-bottom: 1.5rem !important;
+}
+
+.tag-cloase-btn:hover{
+  color: var(--danger);
+}
+
+
+.tag-name {
+  border: 1px solid var(--lightGrey);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  width: 80%;
+  outline: none;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.modal-body button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.modal-body button:hover{
+  transform: scale(1.02);
+}
+
+.tag-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.exist-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10rem;
+}
+
+.exist-list-item p{
+  font-size: 1.1rem;
+  margin-left: 1rem;
+}

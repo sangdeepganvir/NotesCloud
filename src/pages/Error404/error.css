@@ -1,0 +1,9 @@
+.error-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;  
+}
+
+.go-back-btn{
+    margin-top: 2rem;
+}

@@ -1,0 +1,130 @@
+.note-card-container {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px,
+    rgb(209, 213, 219) 0px 0px 0px 1px inset;
+  width: 30%;
+  padding: 1rem;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  height: fit-content;
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.red{
+  background-color: #fca5a5;
+}
+
+
+.orange{
+  background-color: #fdba74;
+}
+
+.green{
+  background-color: #86efac;
+}
+
+.purple{
+  background-color:  #d8b4fe;
+}
+
+.grey{
+  background-color: #d1d5db;
+}
+
+.note-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.note-title-action {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.pin-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.Low{
+  color: var(--green);
+  font-weight: bolder;
+}
+.Medium{
+  color: var(--darkOrange);
+  font-weight: bolder;
+}
+
+.High{
+  color: var(--red);
+  font-weight: bolder;
+}
+
+.form-control .form-control-content {
+  margin: 5px 0;
+  padding: 10px 0;
+  font-size: 1rem;
+}
+
+.note-date {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  margin-top: 0.75rem;
+}
+
+.note-date p {
+  display: flex;
+  align-items: flex-end;
+}
+
+.note-action-container {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.note-title-action span{
+  font-size: 1rem;
+}
+.note-title-action i{
+  font-size: 1.2rem;
+}
+
+
+.note-action-container button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.note-action-container button i {
+  font-size: 1.5rem;
+  color: var(--ligtest-color);
+}
+
+.note-action-container button i:active {
+  color: var(--black-color);
+}
+
+.tagName{
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--lightGrey);
+  display: inline;
+  padding: 2px 8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+
+@media screen and (max-width: 900px) {
+  .note-card-container {
+    width: 100%;
+  }
+}
